@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Sierpinski tetrahedron</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+
+        
+        #tekst {
+            color: #FFFFFF;
+            text-align: center;
+            width: 100%;
+            margin: 2em auto;
+            position: absolute;
+            bottom: 0;
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="tekst">
+        Sierpinski tetrahedron
+        <br/> level: <b id="level">2</b>
+        <button onclick="MinusButton()">-</button>
+        <button onclick="PlusButton()">+</button>
+
+    </div>
+
+    <script src="js/three.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="main.js"> </script>
+
+</body>
+
+</html>
